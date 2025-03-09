@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLORINA</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="meistä-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>FLORINA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Etusivu</a></li>
+                    <li><a href="#">Meistä</a></li>
+                    <li><a href="./yhteystiedot.html">Yhteystiedot</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu button.png" alt=""></div>
+            </nav>
+
+            <div class="header-meistä">
+                <h1>FLORINA kauppa</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutus" class="container">
+        <div class="aboutus-content">
+            <h1>FLORINA kukkakauppa - Kauneutta jokaiseen hetkeen</h1>
+        <p class="about"> 
+            Florina-kukkakauppa on paikka, jossa kukat kertovat tarinoita. Meiltä löydät laadukkaat, tuoreet kukat niin arkeen kuin juhlaan – oli kyseessä sitten ilahduttava kimppu ystävälle, näyttävä hääkukka-asetelma tai herkkä surusidonta.
+        </p>
+
+        <p class="about"> 
+            Florinassa uskomme, että kukat tuovat iloa ja tunnelmaa elämään. Siksi sidomme jokaisen kimpun rakkaudella ja huolella, asiakkaidemme toiveita kuunnellen. Valikoimastamme löydät niin kauden kauneimmat kukat kuin ajattomat klassikot, ja tarjoamme myös kotiinkuljetuksen, jotta kukat saapuvat perille helposti ja vaivattomasti.
+        </p>
+
+        <p class="about"> 
+            Florina-kukkakauppaan – anna kukkien puhua puolestasi!
+        </p>   
+        </div>
+    
+        <div class="aboutus img">
+            <img src="kuva 4_.jpg" alt="" />
+        </div>
+        </section>
+
+
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="#">Etusivu</a></li>
+            <li><a href="#">Meistä</a></li>
+            <li><a href="#">Yhteystiedot</a></li>
+        </ul>
+        <h1 class="logo">FLORINA</h1>
+        <p>@2025 Florina. All right reserved.</p>
+
+    </footer>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

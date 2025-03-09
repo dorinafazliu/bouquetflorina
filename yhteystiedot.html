@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLORINA</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="yhteystiedot-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>FLORINA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Etusivu</a></li>
+                    <li><a href="./meistä.html">Meistä</a></li>
+                    <li><a href="#">Yhteystiedot</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu button.png" alt=""></div>
+            </nav>
+
+            <div class="header_otsikko">
+                <h1>YHTEYSTIEDOT</h1>
+            </div>
+        </div>
+    </section> 
+
+
+    <section id="otayhteyttä" class="container">
+        <form action="#">
+            <h1>Ota yhteyttä</h1>
+
+            <div class="inputsWrapper">
+                <input type="text" placeholder="Nimi">
+                <input type="text" placeholder="Puhelinumero">
+                <input type="email" name="" id="" placeholder="Sähköposti">
+                <textarea name="viesti" id="" placeholder="Viesti" cols="30" rows="10"></textarea>
+                <button class="primary-btn">Lähetä</button>
+            </div>
+        </form>
+        <div class="osoite">
+            <h1>Yhteystiedot</h1>
+
+            <div class="detailsWrapper">
+                <div class="detail">
+                    <img src="./emailogo.jpg" alt="">
+                    <div class="text">
+                        <h6>SÄHKÖPOSTI</h6>
+                        <p>bouquet@florina.fi</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <img src="./puhelinlogo.jpg" alt="">
+                    <div class="text">
+                        <h6>PUHELINUMERO</h6>
+                        <p>045 1234567</p>
+                    </div>
+                </div>
+                <div class="detail">
+                        <img src="./locationlogo.jpg" alt="">
+                        <div class="text">
+                         <h6>OSOITE</h6>
+                        <p>
+                            Meritieranne 2, 00061 Helsinki
+                        </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="followUsWrapper">
+            <h3>Seuraa meidät</h3>
+            <ul class="socialLink">
+                <li>
+                    <a href=""> <img src="./fblogo.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""> <img src="./iglogo.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <ul class="footerlinks">
+            <li><a href="#">Etusivu</a></li>
+            <li><a href="#">Meistä</a></li>
+            <li><a href="#">Yhteystiedot</a></li>
+        </ul>
+        <h1 class="logo">FLORINA</h1>
+        <p>@2025 Florina. All right reserved.</p>
+
+    </footer>
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
