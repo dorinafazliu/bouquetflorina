@@ -144,6 +144,16 @@ font-size: 16px;
     height: auto;
     place-items: center;
 }
+.meistä-button {
+    padding: 12px 30px;
+    font-size: medium;
+    background-color: rgb(110, 108, 108);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-family: "Marcellus", sans-serif;
+    margin-top: 30px;
+}
 #Ota-yhteyttä {
     background-image: url("./kuvv5.jpg");
     background-size: cover;
