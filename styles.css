@@ -146,7 +146,7 @@ font-size: 16px;
     
 }
 .meistä-button {
-    padding: 12px 20px;
+    padding: 12px 30px;
     font-size: medium;
     background-color: rgb(110, 108, 108);
     color: aliceblue;
@@ -377,7 +377,7 @@ margin-top: 30px;
         height: 100%;
         align-items: end;
         padding-top: 80px;
-        color: black;
+        color: rgb(10, 10, 10);
         margin-right: -900px;
         z-index: 1;
         transition: all .3s ease;
@@ -386,8 +386,8 @@ margin-top: 30px;
         margin-right: 0;
     }
     nav li {
-        border-bottom: 1px solid rgb(0, 0, 0);
-        width: 90%;
+        border-bottom: 1px solid rgb(20, 20, 20);
+        width: end;
         padding: 8px 16px;
         text-align: right;
     }
