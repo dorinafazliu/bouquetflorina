@@ -97,7 +97,7 @@ nav .logo {
 .services {
     width: 350px;
 }
-.services h1 {
+.services h4 {
     text-align: center;
     font-size: 20px;
     color: rgb(61, 60, 60);
@@ -105,6 +105,7 @@ nav .logo {
 .services p {
 color: rgb(54, 52, 52);
 text-align: center;
+font-size: 16px;
 }
 .services img {
     max-width: 100%;
@@ -124,7 +125,7 @@ text-align: center;
   justify-content: center;
   text-align: center;
 }
-.about-content h1 {
+.about-content h2 {
     font-size: 70px;
     color: rgb(61, 60, 60);
     text-transform: uppercase;
@@ -159,7 +160,8 @@ text-align: center;
    gap: 30px;
    padding: 0 30px;
 }
-.Ota-yhteyttä h1 {
+.Ota-yhteyttä h5 {
+    font-size: 30px;
     color: rgb(40, 40, 40);
 }
 .Ota-yhteyttä p {
@@ -187,7 +189,7 @@ footer ul {
     list-style: none;
     gap: 32px;
 }
-footer h1 {
+footer h6 {
 color: rgb(61, 60, 60);
 font-size: 26px;
 }
@@ -236,6 +238,11 @@ form {
     padding: 12px 16px;
     width: 100%;
     border: 1px solid var(--primary-dark);
+}
+.inputsWrapper textarea {
+    font-family: "Marcellus", sans-serif;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .detail {
@@ -393,6 +400,11 @@ margin-top: 30px;
         position: relative;
         max-width: 100%;
         margin: 0 auto;
-    }
 }
-    
+.header_otsikko h1 {
+    font-size: 32px;
+}
+.header-meistä h1 {
+    font-size: 32px;
+}
+}
