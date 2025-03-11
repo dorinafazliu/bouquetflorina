@@ -143,16 +143,17 @@ font-size: 16px;
     max-width: 70%;
     height: auto;
     place-items: center;
+    
 }
 .meistä-button {
-    padding: 12px 30px;
+    padding: 12px 20px;
     font-size: medium;
     background-color: rgb(110, 108, 108);
     color: aliceblue;
     border: none;
     cursor: pointer;
     font-family: "Marcellus", sans-serif;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #Ota-yhteyttä {
     background-image: url("./kuvv5.jpg");
@@ -394,6 +395,7 @@ margin-top: 30px;
         position: relative;
         margin: 0 auto;
         max-width: 100%;  
+        margin-top: 20px;
     }
     footer {
        flex-direction: column;
@@ -412,9 +414,9 @@ margin-top: 30px;
         margin: 0 auto;
 }
 .header_otsikko h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 .header-meistä h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 }
